@@ -1,0 +1,59 @@
+body{
+  width: 450px;
+  height: 450px;
+  background-image: url('dessin.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 10px;
+  margin-right: 50px;
+
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  color: rgb(88, 61, 109);
+  text-justify: auto;
+  
+}
+
+
+#id_question{
+  border: 0;
+  padding-top: 100px;
+  font-style: bold;
+  font-size: 14px;
+
+  margin-left: 45px;
+
+}
+
+#id_choice{
+  border: 0;
+  margin-left: 40px;
+
+}
+
+#id_answer{
+  border: 0;
+  margin-left: 45px;
+
+}
+
+#id_explanation{
+  border: 0;
+  margin-left: 45px;
+
+}
+
+
+.c_button_choice{
+background-color: transparent;
+border: 0;
+font-family: "Times New Roman", Times, serif;
+font-size: 13px;
+color: rgb(88, 61, 109);
+
+
+}
+.c_button_choice:hover{
+  background-color: rgb(222, 207, 249);
+}
